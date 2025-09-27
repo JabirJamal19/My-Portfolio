@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jabir Jamal - Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Images/Logo.png" class="logo" alt="Logo">
+        <ul id="side-menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Software Engineer</p>
+        <h1>Hi, I'm <span>Jabir Jamal</span><br>from Pakistan</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/user.png" alt="Profile Picture">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p class="justified">
+            Highly motivated Junior Software Engineer specializing in MERN stack (MongoDB, Express.js, React.js, Node.js) web development. Recently graduated with a BS in Software Engineering, bringing practical experience in building scalable full-stack applications and designing clean, intuitive user interfaces. Eager to apply strong problem-solving skills and a collaborative approach to contribute to a dynamic development team as a MERN Stack Developer or Junior Web Developer.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills', this)">Skills</p>
+            <p class="tab-links" onclick="opentab('experience', this)">Experience</p>
+            <p class="tab-links" onclick="opentab('education', this)">Education</p>
+          </div>
+
+          <div class="tab-contents active-tabs" id="skills">
+            <ul>
+              <li><span>Full-Stack Web Development</span><br>Directly highlights your MERN expertise and experience building end-to-end applications.</li>
+              <li><span>Frontend Development</span><br>Focuses on your primary frontend framework, React.js, which is key to your MERN stack. </li>
+              <li><span>Backend & API Development</span><br>Shifts focus from generic "App Design" to your specialized backend skills (Node.js/Express.js, MongoDB, RESTful APIs). </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Nov 2022 – June 2023</span><br>Junior Web Developer</li>
+              <li><span>Sept 2022 – Nov 2022</span><br>Web Developer Intern</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021–2025</span><br>Bachelor in Software Engineering</li>
+              <li><span>2019–2021</span><br>Intermediate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Full-Stack Web Development</h2>
+          <p class="justified">I specialize in end-to-end application development utilizing the MERN Stack (MongoDB, Express.js, React.js, Node.js). This includes building scalable systems with custom business logic and implementing role-based access control for secure, robust applications like the EduTrack LMS. MERN Stack, Scalability, Role-Based Access Control, Custom Business Logic, Project experience.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fas fa-paint-brush"></i>
+          <h2>Frontend Development</h2>
+          <p class="justified">I craft modern, responsive, and intuitive user interfaces using React.js, Redux, and advanced styling frameworks like Tailwind CSS and Bootstrap. My focus is on enhancing user interaction, ensuring cross-browser compatibility, and translating complex requirements into clean, functional UIs. React.js, Redux, Tailwind CSS, Bootstrap, Responsive Design, UI/UX improvements.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fas fa-server"></i>
+          <h2>Backend & API Development</h2>
+          <p class="justified">I engineer efficient and secure server-side logic using Node.js and Express.js. I design and consume comprehensive RESTful APIs for effective data retrieval and management, and I am experienced in database optimization with MongoDB and integration of services like Stripe API for payment processing. Node.js, Express.js, RESTful APIs, MongoDB Optimization, Stripe API, JWT (authentication).</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Images/work-1.png" alt="Work 1">
+          <div class="layer">
+            <h3>Q-AdConnect</h3>
+            <p>Billboard ad management system using MERN stack.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/work-3.png" alt="Work 2">
+          <div class="layer">
+            <h3>EduTrack</h3>
+            <p>Education tracking app for students and teachers.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/work-2.png" alt="Work 3">
+          <div class="layer">
+            <h3>Portfolio</h3>
+            <p>Personal website showcasing projects and skills.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i> jabirjamal922@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +92 339 5090922</p>
+          <div class="Social-icon">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.thread.com/" target="_blank">
+  <i class="fa-brands fa-threads"></i></i>
+            <a href="#https://www.linkedin.com/in/jabirjamal22/"><i class="fab fa-linkedin"></i></a>
+            <a href="#https://github.com/JabirJamal19"><i class="fab fa-github"></i></a>
+          </div>
+          <a href="Images/Jabir Jamal Mern stack Cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copy-right">
+      <p>Copyright © <span id="year"></span> Jabir. Made with <i class="fas fa-heart"></i> by J.J Bangash</p>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="Portfolio.js"></script>
+  <script>
+    // Auto set year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
