@@ -29,12 +29,12 @@ It showcases my professional profile, technical skills, and past projects, with 
 ## 📂 Folder Structure
 
 ## My-Portfolio/
-├── Portfolio.html
-├── Portfolio.css
-├── Portfolio.js
-├── Images/
-├── Project Screenshots/
-└── README.md
+- ├── Portfolio.html
+- ├── Portfolio.css
+- ├── Portfolio.js
+- ├── Images/
+- ├── Project Screenshots/
+- └── README.md
 
 
 ---
@@ -42,11 +42,11 @@ It showcases my professional profile, technical skills, and past projects, with 
 ## 📸 Project Screenshots
 All screenshots of the project are available in the **`Project Screenshots`** folder.
 
-![Screenshot 1](ProjectScreenshots/screenshot1.png)
-![Screenshot 2](ProjectScreenshots/screenshot2.png)
-![Screenshot 3](ProjectScreenshots/screenshot3.png)
-![Screenshot 4](ProjectScreenshots/screenshot4.png)
-![Screenshot 5](ProjectScreenshots/screenshot5.png)
+![Screenshot 1](ProjectScreenshots/Screenshot 1.png)
+![Screenshot 2](ProjectScreenshots/Screenshot 2.png)
+![Screenshot 3](ProjectScreenshots/Screenshot 3.png)
+![Screenshot 4](ProjectScreenshots/Screenshot 4.png)
+![Screenshot 5](ProjectScreenshots/Screenshot 5.png)
 
 ---
 
