@@ -43,11 +43,11 @@ It showcases my professional profile, technical skills, and past projects, with 
 
 Here are some previews of the project:  
 
-![Screenshot 1](Project%20Screenshots/Screenshot1.png)  
-![Screenshot 2](Project%20Screenshots/Screenshot2.png)  
-![Screenshot 3](Project%20Screenshots/Screenshot3.png)  
-![Screenshot 4](Project%20Screenshots/Screenshot4.png)  
-![Screenshot 5](Project%20Screenshots/Screenshot5.png)  
+![Screenshot 1](Project%20Screenshots/Screenshot%201.png)  
+![Screenshot 2](Project%20Screenshots/Screenshot%202.png)  
+![Screenshot 3](Project%20Screenshots/Screenshot%203.png)  
+![Screenshot 4](Project%20Screenshots/Screenshot%204.png)  
+![Screenshot 5](Project%20Screenshots/Screenshot%205.png)  
 
 
 
