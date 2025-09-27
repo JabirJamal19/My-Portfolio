@@ -67,7 +67,6 @@ Here are some previews of the project:
 ## 🔮 Future Improvements
 - Add dark mode support
 - Integrate a contact form with backend functionality
-- Deploy on GitHub Pages or Netlify for live access
 - Enhance animations for smoother user experience
 
 ## 📜 License
