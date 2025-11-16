@@ -12,14 +12,3 @@ function opentab(tabname, element) {
   element.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tabs");
 }
-
-// Handle side menu
-const sidemenu = document.getElementById("side-menu");
-
-function openmenu() {
-  sidemenu.classList.add("show");
-}
-
-function closemenu() {
-  sidemenu.classList.remove("show");
-}
