@@ -17,9 +17,9 @@ function opentab(tabname, element) {
 const sidemenu = document.getElementById("side-menu");
 
 function openmenu() {
-  sidemenu.style.right = "0";
+  sidemenu.classList.add("show");
 }
 
 function closemenu() {
-  sidemenu.style.right = "-250px";
+  sidemenu.classList.remove("show");
 }
